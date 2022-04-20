@@ -1,0 +1,120 @@
+/* reset margin and padding */
+html body {
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+
+p {
+    line-height: 1em;
+}
+
+@media (max-width: 520px) {
+    /* start nav */
+    nav {
+        display: flex;
+        padding: 20px 12px;
+        justify-content: space-between;
+    }
+
+
+    .logomoodzy a img {
+        width: 72px;
+    }   
+    /* end nav */
+
+    /* start hero section */
+    .hero img {
+        display: block;
+        width: 88%;
+        height: 10em;
+        margin: 0 auto;
+        border-radius: 8px;
+        box-shadow: 0.5px 0.5px 2px 0.2px #888888;
+    }
+    /* end hero */
+
+    /* section recomended */
+    .recomended {
+       
+    }
+    
+    .row1 {
+        margin-left: 15px;
+    }
+
+    .row2 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .produk {
+        width: 30%;
+        height: auto;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0.5px 0.5px 2px 0.2px #888888;
+    }
+
+    .produk p {
+        font-size: 12px;
+        padding: 0 3px;
+    }
+
+    .produk p img {
+        width: 12px;
+    }
+
+    .produk strong {
+        font-size: 14px;
+        padding: 0 3px;
+    }
+
+    .recomended .row2 .produk a img {
+        position: relative;
+        max-width: 100%;
+    }
+
+    .recomended .row2 .produk a {
+        text-decoration: none;
+    }
+    /* end recomended */
+
+    /* section flash-sale */
+
+    /* end flash sale */
+
+    
+    /* Social media */
+    .social {
+        margin-left: 15px;
+    }
+
+    .social h4 {
+        margin-bottom: -3px ;
+    }
+
+    .social ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .social ul li {
+        display: inline;
+        padding: 0 5px;
+
+    }
+    /* social media */
+
+
+    /* footer */
+    .footer p {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .footer p img {
+        width: 12px;
+    }
+    /* end footer */
+}
