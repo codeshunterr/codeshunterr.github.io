@@ -9,12 +9,70 @@ p {
     line-height: 1em;
 }
 
+a {
+    color: black;
+}
+
+/* start nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    width: 180px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logomoodzy a img {
+    margin: 16px 0;
+}
+/* end nav */
+
+/* start hero section */
+.hero {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.hero img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0.5px 0.5px 2px 0.2px #888888;
+}
+/* end hero */
+
+/* section recomended */
+.row1 {
+    margin-left: 15px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.produk {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0.5px 0.5px 2px 0.2px #888888;
+}
+
+.recomended .row2 .produk a img {
+    max-width: 100%;
+}
+/* end recomended */
+
 @media (max-width: 520px) {
     /* start nav */
     nav {
-        display: flex;
-        padding: 20px 12px;
-        justify-content: space-between;
+        padding: 5px 12px;
     }
 
 
@@ -25,12 +83,7 @@ p {
 
     /* start hero section */
     .hero img {
-        display: block;
-        width: 88%;
         height: 10em;
-        margin: 0 auto;
-        border-radius: 8px;
-        box-shadow: 0.5px 0.5px 2px 0.2px #888888;
     }
     /* end hero */
 
@@ -43,18 +96,8 @@ p {
         margin-left: 15px;
     }
 
-    .row2 {
-        display: flex;
-        justify-content: space-evenly;
-    }
 
-    .produk {
-        width: 30%;
-        height: auto;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0.5px 0.5px 2px 0.2px #888888;
-    }
+
 
     .produk p {
         font-size: 12px;
@@ -70,10 +113,7 @@ p {
         padding: 0 3px;
     }
 
-    .recomended .row2 .produk a img {
-        position: relative;
-        max-width: 100%;
-    }
+
 
     .recomended .row2 .produk a {
         text-decoration: none;
